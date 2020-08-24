@@ -7,6 +7,13 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>dubbo-consumer Maven Webapp</name>
 	<url>http://maven.apache.org</url>
+
+	<parent>
+		<groupId>com.zhaoguhong</groupId>
+		<artifactId>dubbo-parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
 	<properties>
 		<!-- spring版本号 -->
 		<spring.version>4.3.11.RELEASE</spring.version>
